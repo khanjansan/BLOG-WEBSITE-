@@ -1,0 +1,136 @@
+*{
+    padding: none;
+    margin: none;
+
+}
+
+
+nav{
+    /* padding: 10px; */
+    /* margin: 10px; */
+    box-sizing: border-box;
+    background-color:rgba(0, 0, 0, 0.822);
+    height: 60px;
+    width: 100%;
+    
+}
+label.logo{
+    color:#addb08;
+    font-size: 30px;
+    font-family:monospace;
+    font-weight:bolder;
+}
+
+.logo:hover{
+    color: chartreuse;
+}
+
+nav ul li a{
+   padding: 5PX;
+   color: rgba(0, 255, 21, 0.993);
+   font-family: monospace;
+   font-size: 17px;
+   
+   
+}
+
+nav a:hover{
+    color: rgb(255, 127, 80);
+}
+
+
+nav ul{
+    float: right;
+}
+
+nav ul li{
+
+    display: inline;
+    align-items: center;
+}
+
+.insta{
+    padding-left: 560px;
+}
+
+.insta img:hover{
+    width: 60px;
+    height: 60px;
+}
+
+
+.container{
+    background-image: url(img/library.jpg);
+    background-size: cover;
+
+}
+
+h2{
+    text-align: center;
+    color:khaki;
+    border: black ;
+    font-size: 40px;
+}
+
+.study li{
+    display:flexbox;
+    margin: 25px;
+}
+
+.study li a{
+   color: rgba(0, 238, 255, 0.993);
+   font-family:fantasy;
+   border: black;
+   font-size: 25px;
+   padding-bottom: 70px;
+
+}
+
+/* .study li a:hover{
+    font: size 40px; ;
+} */
+
+.study{
+    background-color: rgba(0, 0, 0, 0.596);
+    padding-bottom: 50px;
+}
+
+
+h3{
+    color: #ffde22;
+    font-family: cursive;
+    font-size: 10px;
+    position: relative;
+    animation-name: shead;
+    animation-duration: 5s;
+    animation-iteration-count: 1;
+
+}
+
+@keyframes shead {
+
+    0%{
+
+    }
+
+    50%{
+        font-size: 30px;
+        color:rgb(161, 205, 0);
+
+    }
+
+    100%{
+
+        font-size: 10px;
+
+    }
+}
+
+.slider{
+    padding-left: 25px;
+}
+
+.slider a img:hover{
+    width: 27%;
+    height: 280px;
+}
